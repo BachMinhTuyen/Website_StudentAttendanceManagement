@@ -1,4 +1,4 @@
-# :warning: Lập Trình Mã Nguồn Mở (Open Source Programming) :100:
+# :warning: Lập Trình Mã Nguồn Mở (Open Source Code Programming) :100:
 
 Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.net/) 
 
@@ -57,6 +57,10 @@ Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.n
 ---
 <a name="tutorial"></a>
 ## :pushpin: **Hướng dẫn sử dụng** :sparkles:
+
+:rotating_light: Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.net/) 
+
+- :warning: Hiện tại giao diện website **tương thích với màn hình như laptop, PC, ...** Giao diện trên điện thoại hiện vẫn **chưa tối ưu hóa.**
 
 :rotating_light: Tài khoản người dùng :rotating_light:
 - Cấu trúc: **username:password**
