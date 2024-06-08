@@ -1,16 +1,16 @@
 # :warning: Lập Trình Mã Nguồn Mở (Open Source Programming) :100:
 
-Website [tại đây (here)](http://laptrinhmanguonmo.great-site.net/) 
+Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.net/) 
 
-- :warning: Hiện tại website chỉ tương thích với màn hình giao diện lớn.
+- :warning: Hiện tại giao diện website **tương thích với màn hình như laptop, PC, ...** Giao diện trên điện thoại hiện vẫn **chưa tối ưu hóa.**
 
 **:bookmark: >>>>>>>>>>>>>> MỤC LỤC <<<<<<<<<<<<<<<:bookmark:**
 
-:point_right: **Tổng quan** ([Overview](#overview)): :fire:
+:point_right: **Tổng quan** ([Overview](#overview)) :fire:
 
-:point_right: **Công cụ hỗ trợ** ([Tools - Framework - Library](#tools-framework-library)): :fire:
+:point_right: **Công cụ hỗ trợ** ([Tools - Framework - Library](#tools-framework-library)) :fire:
 
-:point_right: **Hướng dẫn sử dụng** ([Tutorial](#tutorial)): :fire:
+:point_right: **Hướng dẫn sử dụng** ([Tutorial](#tutorial)) :fire:
 
 ---
 <a name="overview"></a>
