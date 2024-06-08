@@ -1,66 +1,124 @@
+# :warning: Lập Trình Mã Nguồn Mở (Open Source Programming) :100:
+
+Website [tại đây (here)](http://laptrinhmanguonmo.great-site.net/) 
+
+- :warning: Hiện tại website chỉ tương thích với màn hình giao diện lớn.
+
+**:bookmark: >>>>>>>>>>>>>> MỤC LỤC <<<<<<<<<<<<<<<:bookmark:**
+
+:point_right: **Tổng quan** ([Overview](#overview)): :fire:
+
+:point_right: **Công cụ hỗ trợ** ([Tools - Framework - Library](#tools-framework-library)): :fire:
+
+:point_right: **Hướng dẫn sử dụng** ([Tutorial](#tutorial)): :fire:
+
+---
+<a name="overview"></a>
+### :loudspeaker: **Tổng Quan - Overview**  :triangular_flag_on_post:
+
+1. :wave: **Đề tài:** Xây dựng website quản lý điểm danh sinh viên  :gift:
+
+2. :wave: Các website dành cho **giảng viên, sinh viên** và **phòng đào tạo** :gift:
+
+- :rotating_light: Tính năng ***website giảng viên*** :rotating_light:
+  - :palm_tree: **Cung cấp mã QR buổi học đó** cho sinh viên quét mã (Scan QR Code) :partly_sunny:
+  - :palm_tree: **Điểm danh trực tiếp** sử dụng checkbox để đánh dấu điểm danh, ghi chú nếu cần :partly_sunny:
+  - :palm_tree: Sử dụng **File Excel .csv** để cập nhật điểm danh sinh viên ***(chưa hoàn thành)*** :partly_sunny:
+
+- :rotating_light: Tính năng ***website sinh viên*** :rotating_light:
+  - :palm_tree: **Sử dụng camera thiết bị để quét mã QR (Scan QR Code)** mã giảng viên cấp :partly_sunny:
+
+- :rotating_light: Tính năng ***website phòng đào tạo*** :rotating_light:
+  - :palm_tree: **Thêm, xóa, sửa** môn học :partly_sunny:
+  - :palm_tree: **Thêm, xóa, sửa** lớp của môn học nào đó :partly_sunny:
+  - :palm_tree: **Thêm, xóa, sửa** (phân bổ) lịch dạy học cho giảng viên ***(chưa hoàn thành)*** :partly_sunny:
+  - :palm_tree: **Thêm, xóa, sửa** buổi học của lịch dạy nào đó ***(chưa hoàn thành)*** :partly_sunny:
+  - :palm_tree: **Thêm, xóa, sửa** tài khoản người dùng (giảng viên & sinh viên) ***(chưa hoàn thành)*** :partly_sunny:
+
+- :rotating_light: Tính năng **chung**
+  - :palm_tree: Đăng nhập/ đăng xuất :partly_sunny:
+  - :palm_tree: Hiển thị danh sách các lịch (dạy) học và số buổi (dạy) học của lịch học đó :partly_sunny:
+
+---
+<a name="tools-framework-library"></a>
+## :pushpin: **Công cụ, framework sử dụng phát triển website** :sparkles: 
+
+1. :triangular_flag_on_post: Framework - **Laravel** - PHP :heavy_check_mark:
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+2. :triangular_flag_on_post: Database **MySQL - XAMPP** (localmyadmin) :heavy_check_mark:
 
-## About Laravel
+3. :triangular_flag_on_post: Visual Studio Code, Git (GitHub) :heavy_check_mark:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+4. :triangular_flag_on_post: QR Code Scanner or Reader ([Open Source](https://www.geeksforgeeks.org/create-a-qr-code-scanner-or-reader-in-html-css-javascript/)) :heavy_check_mark:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
+<a name="tutorial"></a>
+## :pushpin: **Hướng dẫn sử dụng** :sparkles:
 
-## Learning Laravel
+:rotating_light: Tài khoản người dùng :rotating_light:
+- Cấu trúc: **username:password**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Giảng viên:** 
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+```
+gv001:gv001
+gv002:gv002
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Sinh viên:** 
 
-## Laravel Sponsors
+```
+a:a
+b:b
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Phòng đào tạo:** 
 
-### Premium Partners
+```
+admin:admin
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<br>
 
-## Contributing
+:rotating_light: Các bước thao tác với **vai trò Giảng Viên** :rotating_light:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. :point_right: **Đăng nhập** tài khoản
 
-## Code of Conduct
+2. :point_right: Bấm **"Quản Lý"** trên ***bảng thông tin lịch dạy học*** do phòng đào tạo phân bổ
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. :point_right: Bấm **"Quản Lý"** trên ***bảng thông tin buổi học*** của lịch dạy đó.
+   - :palm_tree: **Chú ý** buổi dạy học, ngày dạy học
 
-## Security Vulnerabilities
+4. :point_right: Chọn **"Show QR Code"** để hiện mã QR Code cho sinh viên quét mã
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5. :point_right: Trường hợp **sử dụng checkbox khi không dùng QR Code** thì giảng viên phải ***thao tác thủ công*** để điểm danh, ghi chú nếu cần
 
-## License
+6. :point_right: **Đăng xuất** tài khoản
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<br>
+
+:rotating_light: Các bước thao tác với **vai trò Sinh Viên** :rotating_light:
+
+1. :point_right: **Đăng nhập** tài khoản
+
+2. :point_right: Bấm **"Tham Gia"** trên ***bảng thông tin lịch học*** mà học phần đó sinh viên đã đăng ký
+
+3. :point_right: Bấm **"Điểm Danh QR Code"** trên ***bảng thông tin buổi học*** của lịch học đó.
+   - :palm_tree: **Chú ý** quét mã QR trực tiếp do giảng viên cung cấp. Quét mã QR xong sẽ ***hiện thông báo điểm danh thành công***
+
+6. :point_right: **Đăng xuất** tài khoản
+
+<br>
+
+:rotating_light: Các bước thao tác với **vai trò Phòng Đào Tạo** :rotating_light:
+
+1. :point_right: **Đăng nhập** tài khoản
+
+2. :point_right: **Lựa chọn danh mục** cần quản lý
+
+3. :point_right: Thực hiện chức năng **thêm - sửa - xóa**
+
+4. :point_right: **Đăng xuất** tài khoản sau khi quản lý xong
