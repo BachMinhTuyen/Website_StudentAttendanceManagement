@@ -4,11 +4,14 @@ Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.n
 
 - :warning: Hiện tại giao diện website **tương thích với màn hình như laptop, PC, ...** Giao diện trên điện thoại hiện vẫn **chưa tối ưu hóa.**
 
-**:bookmark: >>>>>>>>>>>>>> MỤC LỤC <<<<<<<<<<<<<<<:bookmark:**
+---
+:bookmark: >>>>>>>>>>>>>> **MỤC LỤC** <<<<<<<<<<<<<<<:bookmark:
 
 :point_right: **Tổng quan** ([Overview](#overview)) :fire:
 
 :point_right: **Công cụ hỗ trợ** ([Tools - Framework - Library](#tools-framework-library)) :fire:
+
+:point_right: **Hướng dẫn cài đặt** ([Installation](#installation)) :fire:
 
 :point_right: **Hướng dẫn sử dụng** ([Tutorial](#tutorial)) :fire:
 
@@ -53,6 +56,52 @@ Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.n
 
 4. :triangular_flag_on_post: QR Code Scanner or Reader ([Open Source](https://www.geeksforgeeks.org/create-a-qr-code-scanner-or-reader-in-html-css-javascript/)) :heavy_check_mark:
 
+---
+<a name="installation"></a>
+## :pushpin: **Hướng dẫn cài đặt** :sparkles:
+
+1. :triangular_flag_on_post: Tải source code :heavy_check_mark:
+
+2. :triangular_flag_on_post: Tải và cài đặt Xampp - [link tải](https://www.apachefriends.org/download.html) :heavy_check_mark:
+
+3. :triangular_flag_on_post: Tải và cài đặt [Composer](https://getcomposer.org/) và có thể cài đặt thêm [Node và NPM](https://nodejs.org/en) :heavy_check_mark:
+
+  - Mở ***Command Prompt/Terminal*** để kiểm tra ***PHP, Composer, Node đã được cài đặt*** hay chưa
+
+```
+php -v
+composer -v
+node -v
+```
+
+4. :triangular_flag_on_post: Cài đặt và khởi chạy [Visual Studio Code](https://code.visualstudio.com/) :heavy_check_mark:
+
+5. :triangular_flag_on_post: Khởi chạy Xampp - Apache và MySQL :heavy_check_mark:
+
+6. :triangular_flag_on_post: Mở [PHP My Admin](http://localhost/phpmyadmin/) trên XAMPP :heavy_check_mark:
+
+7. :triangular_flag_on_post: Tạo database và sao chép tên database để cấu hình database ở file .env :heavy_check_mark: 
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+8. :triangular_flag_on_post: Khởi tạo các bảng cho database sử dụng migrations :heavy_check_mark:
+
+```
+php artisan migrate
+```
+
+9. :triangular_flag_on_post: Bắt đầu chạy server :heavy_check_mark:
+
+```
+php artisan serve
+```
 
 ---
 <a name="tutorial"></a>
