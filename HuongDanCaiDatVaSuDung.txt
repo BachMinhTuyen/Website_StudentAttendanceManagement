@@ -1,0 +1,62 @@
+Xem thêm tại README.md
+
+Hướng dẫn cài đặt
+1. Tải source code 
+2. Tải và cài đặt XAMPP
+3. Tải và cài đặt Composer và có thể cài đặt thêm Node và NPM
+    -   Mở Command Prompt/Terminal để kiểm tra PHP, Composer, Node đã được cài đặt hay chưa
+    php -v
+    composer -v
+    node -v
+4. Cài đặt và khởi chạy Visual Studio Code
+5. Khởi chạy Xampp - Apache và MySQL
+6. Mở PHP My Admin trên XAMPP 
+7. Tạo database và sao chép tên database để cấu hình database ở file .env 
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=
+8. Khởi tạo các bảng cho database sử dụng migrations
+    php artisan migrate
+9. Bắt đầu chạy server
+    php artisan serve
+
+Hướng dẫn sử dụng website laptrinhmanguonmo.great-site.net
+- Lưu ý:  Hiện tại giao diện website tương thích với màn hình như laptop, PC, ... Giao diện trên điện thoại hiện vẫn chưa tối ưu hóa.
+- Tài khoản người dùng
+    Cấu trúc: username:password
+
+    - Tài khoản giảng viên
+    gv001:gv001
+    gv002:gv002
+
+    - Tài khoản sinh viên
+    a:a
+    b:b
+
+    - Phòng đào tạo - adminstrator
+    admin:admin
+
+- Các bước thao tác với vai trò Giảng Viên
+1. Đăng nhập tài khoản
+2. Bấm "Quản Lý" trên bảng thông tin lịch dạy học do phòng đào tạo phân bổ
+3. Bấm "Quản Lý" trên bảng thông tin buổi học của lịch dạy đó.
+    -   Chú ý buổi dạy học, ngày dạy học
+4. Chọn "Show QR Code" để hiện mã QR Code cho sinh viên quét mã
+5. Trường hợp sử dụng checkbox khi không dùng QR Code thì giảng viên phải thao tác thủ công để điểm danh, ghi chú nếu cần
+6. Đăng xuất tài khoản
+
+- Các bước thao tác với vai trò Sinh Viên
+1. Đăng nhập tài khoản  
+2. Bấm "Tham Gia" trên bảng thông tin lịch học mà học phần đó sinh viên đã đăng ký
+3. Bấm "Điểm Danh QR Code" trên bảng thông tin buổi học của lịch học đó.
+    -   Chú ý quét mã QR trực tiếp do giảng viên cung cấp. Quét mã QR xong sẽ hiện thông báo điểm danh thành công
+4. Đăng xuất tài khoản
+
+- Các bước thao tác với vai trò Phòng Đào Tạo
+1. Đăng nhập tài khoản
+2. Lựa chọn danh mục cần quản lý
+3. Thực hiện chức năng thêm - sửa - xóa
+4. Đăng xuất tài khoản sau khi quản lý xong
