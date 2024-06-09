@@ -5,7 +5,7 @@ Website [laptrinhmanguonmo.great-site.net](http://laptrinhmanguonmo.great-site.n
 - :warning: Hiện tại giao diện website **tương thích với màn hình như laptop, PC, ...** Giao diện trên điện thoại hiện vẫn **chưa tối ưu hóa.**
 
 ---
-:bookmark: >>>>>>>>>>>>>> **MỤC LỤC** <<<<<<<<<<<<<<<:bookmark:
+:bookmark: >>>>>>>>>>>>>> **MỤC LỤC** <<<<<<<<<<<<<<< :bookmark:
 
 :point_right: **Tổng quan** ([Overview](#overview)) :fire:
 
